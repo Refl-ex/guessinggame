@@ -7,9 +7,9 @@ function guessinggame {
 
     if [[ $input -gt $target ]]
     then
-      echo "too high"
+      echo "Too high"
     else
-      echo "too low"
+      echo "Too low"
     fi
     read input
 
